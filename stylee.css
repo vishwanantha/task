@@ -1,0 +1,63 @@
+
+    
+.topnav {
+    overflow: hidden;
+    
+  }
+  
+  /* Navbar links */
+  .topnav p {
+   float: right;
+  position:absolute;
+    text-align: center;
+    padding: 0px 46px;
+    margin:0px 40px;
+   
+    text-decoration: none;
+    font-size: 80px;
+  }
+
+  .container {
+  
+    position: absolute;
+    padding:20px ;
+    margin:300px 650px ;
+    
+    width: 1500px;
+    font-size:35px;
+    background: rgba(255,0,0,.4);
+    color: #ffffff;
+  }
+  .container h1{
+  font-size:70px;
+  }
+.img {
+    /* The image used */
+    background-image: url("imgr1.jpg");
+
+    min-height: 100vh;
+  min-width:800px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  overflow:hidden;
+    /* Needed to position the navbar */
+    position: relative;
+  }
+  footer {
+    
+display:flex;
+    height:150px;
+    width: 4000px;
+    position: absolute;
+    bottom:0;
+    background: linear-gradient(to right,#ff1493,#ffd700);
+  }
+
+  @media (max-width: 200px) {
+    footer, .img, .container, .topnav {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
